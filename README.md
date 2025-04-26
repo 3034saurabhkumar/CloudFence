@@ -4,6 +4,16 @@ This project uses Terraform to automate the deployment and configuration of a Ci
 reproducible and scalable security gateway. It leverages Infrastructure as Code (IaC) to provide robust firewall, VPN, and other
 ASAv features in AWS.
 
+## 📝 Prerequisites
+• User must have an AWS account.
+
+## 🛑 Desclaimer !!
+**Important:** To avoid incurring ongoing AWS charges for AMI usage and resource consumption, it is crucial to properly terminate the ASAv EC2 instance when it is no longer needed.
+
+Simply stopping the instance will not prevent all charges. You must terminate the instance to release the associated resources (EBS volumes, Elastic IPs, etc.). Failure to do so may result in continued billing from AWS.
+
+Please refer to the AWS documentation for detailed instructions on terminating EC2 instances.
+
 ## 🚀 Getting Started
 
 To get started, **Clone repository to an editor(VS Code)**.
