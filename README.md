@@ -7,7 +7,7 @@ ASAv features in AWS.
 ## 📝 Prerequisites
 • User must have an AWS account.
 
-## 🛑 Desclaimer !!
+## 🛑 Disclaimer !!
 **Important:** To avoid incurring ongoing AWS charges for AMI usage and resource consumption, it is crucial to properly terminate the ASAv EC2 instance when it is no longer needed.
 
 Simply stopping the instance will not prevent all charges. You must terminate the instance to release the associated resources (EBS volumes, Elastic IPs, etc.). Failure to do so may result in continued billing from AWS.
